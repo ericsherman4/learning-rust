@@ -71,7 +71,6 @@ def gen_docs() -> None:
 ################################################
 #### RUST CARGO PROJECT COMMANDS
 ################################################
-
 @app.command()
 def update() -> None:
     """ Update cargo crates. Ignores current cargo.lock and then generates a new one when done. """
